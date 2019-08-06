@@ -20,15 +20,6 @@ TODO:
 
 public class Adult {
     public static void main(String[] args) {
-        
-        try(Room room = new Room(5)) {
-            System.out.println(" cleaning the room ");
-        };
-        
-        
-        
-        
-        
 
     }
 }

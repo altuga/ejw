@@ -29,19 +29,6 @@ public class Sort {
         List<String> words = Arrays.asList(args);
         System.out.println(words);
         
-        /*Collections.sort(words, new Comparator<String>() {
-            @Override
-            public int compare(String o1, String o2) {
-                return Integer.compare(o1.length(), o2.length());
-            }
-        });*/
-        
-        // Collections.sort(words, (s1,s2) -> Integer.compare(s1.length(), s2.length()));
-        
-        // Collections.sort(words, comparingInt(String::length));
-        
-        words.sort(comparingInt(String::length));
-        
-         System.out.println(words);
+
     }
 }

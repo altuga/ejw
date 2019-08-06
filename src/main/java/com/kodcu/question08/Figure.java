@@ -12,7 +12,7 @@ package com.kodcu.question08;
 
 /*
 TODO: 
- 1 - Calcualte SQUARE's area in the same code  - 5 min
+ 1 - Calcualte SQUARE's area in the same code  - 10 min
  2 - Is this class compatible with SOLID principles ?
  3 - Try to refactor according to SOLID principles - 5 mins
  4 - Instructor will show the solutions

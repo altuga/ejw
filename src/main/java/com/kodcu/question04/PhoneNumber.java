@@ -33,18 +33,7 @@ public final class PhoneNumber {
         return (short) val;
     }
 
-    @Override
-    public int hashCode() {
-        int hash = 7;
-        hash = 13 * hash + this.areaCode;
-        hash = 13 * hash + this.prefix;
-        hash = 13 * hash + this.lineNum;
-        return hash;
-    }
 
-   
-
-    
 
     @Override public boolean equals(Object o) {
         if (o == this)

@@ -11,7 +11,7 @@ package com.kodcu.question07;
 public abstract class Super {
     // Broken - constructor invokes an overridable method
     public Super() {
-       // overrideMe();
+        overrideMe();
     }
     public abstract void overrideMe() ;
 }

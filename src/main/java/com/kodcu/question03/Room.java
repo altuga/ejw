@@ -10,7 +10,7 @@ package com.kodcu.question03;
  * Twitter : @altugaltintas
  */
 
-public class Room implements AutoCloseable{
+public class Room {
 
 
     int numJunkPiles; // Number of junk piles in this room
@@ -19,17 +19,8 @@ public class Room implements AutoCloseable{
         this.numJunkPiles = numJunkPiles;
     }
     
-    public void clean() {
-        numJunkPiles = 0 ; 
-        System.out.println(" cleaned " + numJunkPiles);
-    }
 
-    
 
-    @Override
-    public void close()  {
-        this.clean();
-    }
 
     
 
