@@ -5,13 +5,14 @@ import java.util.List;
 
 /*
 TODO
- 1 -
- 2 -
- 3 -
+ 1 - Compile Combiner.java
+ 2 - There are 1 warnings, can you spot the warning ?
+ 3 - try to fix those 1 warnings.
 */
-public class Dangerous {
-    // Mixing generics and varargs can violate type safety!
-    static void dangerous(List<String>... stringLists) {
+public class Hazardous {
+
+
+    static void hazardous( List<String>... stringLists) {
         List<Integer> intList = List.of(42);
         Object[] objects = stringLists;
         objects[0] = intList; // Heap pollution
@@ -19,6 +20,6 @@ public class Dangerous {
     }
 
     public static void main(String[] args) {
-        dangerous(List.of("There be dragons!"));
+        hazardous(List.of("There be dragons!"));
     }
 }
