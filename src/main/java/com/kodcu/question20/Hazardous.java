@@ -7,7 +7,7 @@ import java.util.List;
 TODO
  1 - Compile Combiner.java
  2 - There are 1 warnings, can you spot the warning ?
- 3 - try to fix those 1 warnings.
+ 3 - try to fix this 1 warning.
 */
 public class Hazardous {
 

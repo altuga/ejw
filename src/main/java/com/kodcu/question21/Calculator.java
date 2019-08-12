@@ -1,12 +1,6 @@
 package com.kodcu.question21;
 
-import java.math.RoundingMode;
 
-
-/**
- *
- *
- */
 public class Calculator {
 
     public static final double MERCURY_MASS = 3.302e+23;
@@ -28,26 +22,34 @@ public class Calculator {
     public static final double URANUS_REDIUS  = 2.556e7;
     public static final double NEPTUNE_REDIUS  = 2.477e7;
 
-    private final double mass;           // In kilograms
-    private final double radius;         // In meters
-    private final double surfaceGravity; // In m / s^2
 
     // Universal gravitational constant in m^3 / kg s^2
     private static final double G = 6.67300E-11;
 
-    // Constructor
-    Calculator(double mass, double radius) {
-        this.mass = mass;
-        this.radius = radius;
+
+    private static double convertToMass(double wightOfPerson) {
+
+        double surfaceGravityOfEarth = G * EARTH_MASS / (EARTH_REDIUS * EARTH_REDIUS);
+        return wightOfPerson / surfaceGravityOfEarth;
+    }
+
+    /**
+     *
+     * @param radius   In meters
+     * @param mass  In kilograms
+     * @return
+     */
+    public static double calculateSurfaceWeight(double radius, double mass, double wightOfPerson) {
+
+        wightOfPerson = convertToMass(wightOfPerson);
+
+        double surfaceGravity; // In m / s^2
         surfaceGravity = G * mass / (radius * radius);
+        return wightOfPerson * surfaceGravity;  // F = ma
     }
 
-    public double mass()           { return mass; }
-    public double radius()         { return radius; }
-    public double surfaceGravity() { return surfaceGravity; }
 
-    public double surfaceWeight(double mass) {
-        return mass * surfaceGravity;  // F = ma
-    }
+
+
 
 }
