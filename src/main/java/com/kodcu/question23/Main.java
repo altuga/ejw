@@ -7,7 +7,7 @@ import static com.kodcu.question23.PrintedWork.STYLE_STRIKETHROUGH;
 /**
  * TODO
  * 1 - Can you apply STYLE_BOLD and STYLE_STRIKETHROUGH at the same time ?
- * 2 - Any other possibility other than working with INTEGERS ?
+ * 2 - What are the alternative options other than working with INTEGERS ?
  */
 
 public class Main {
