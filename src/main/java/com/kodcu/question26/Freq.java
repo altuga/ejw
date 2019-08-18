@@ -10,7 +10,7 @@ import static java.math.BigInteger.TWO;
 /*
 TODO
 
-1 - Can you make thi app faster ?
+1 - Can you make this app faster ?
 
 */
 public class Freq {
