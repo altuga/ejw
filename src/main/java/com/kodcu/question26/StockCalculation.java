@@ -13,7 +13,7 @@ import static java.util.stream.Collectors.toList;
 TODO
 
 1 - Can you make this app faster ?
-2 - Measure the work time
+2 - Measure working time
 */
 
 public class StockCalculation {
@@ -40,8 +40,6 @@ public class StockCalculation {
     }
 
     public static void main(String[] args) {
-
-        long startTime = System.nanoTime();
         StockCalculation stockCalculation = new StockCalculation();
 
         List<String> stockNames = new ArrayList() ;
@@ -49,9 +47,7 @@ public class StockCalculation {
             stockNames.add("A" + i) ;
         }
         List<StockInfo>  stockInfos =  stockCalculation.getStockInfo(stockNames.stream());
-        long end = System.nanoTime();
-
-        System.out.println( (end- startTime) / 1_000_000_000   );
+        System.out.println(stockInfos);
 
     }
 
