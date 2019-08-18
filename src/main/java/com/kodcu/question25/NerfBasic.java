@@ -8,9 +8,8 @@ import java.util.Objects;
 TODO
 
 1 - Run NerfBasic.java
-3 - Any abnormality  ?
-
- */
+2 - Any abnormality  ?
+*/
 
 public class NerfBasic {
 
