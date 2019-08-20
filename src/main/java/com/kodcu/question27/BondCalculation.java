@@ -1,7 +1,7 @@
 package com.kodcu.question27;
 
+
 import java.math.BigDecimal;
-import java.math.BigInteger;
 import java.util.Objects;
 
 
@@ -34,6 +34,13 @@ public class BondCalculation {
         // calculation
         return new BigDecimal(1);
 
+    }
+
+    public static void main(String[] args) {
+
+        BondCalculation bondCalculation = new BondCalculation();
+
+        bondCalculation.calculateTimeValueOfMoney(null);
     }
 
 
