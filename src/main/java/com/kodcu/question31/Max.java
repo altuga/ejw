@@ -5,7 +5,13 @@ import java.util.Collection;
 import java.util.List;
 import java.util.Objects;
 
-
+/*
+TODO
+ 1 - Run the Max.java
+ 2 - Is this the best way for max() method?
+ 3 - Instructor will show the solutions
+ 4 - What is the lesson  ?
+*/
 public class Max {
 
 
