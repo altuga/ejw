@@ -17,7 +17,7 @@ public class Max {
 
     // Returns maximum value in collection - throws exception if empty
     public static String max(Collection<String> collection) {
-        if (collection.isEmpty())
+        if (collection == null || collection.isEmpty())
             throw new IllegalArgumentException("Empty collection");
 
         String result = null;
