@@ -15,8 +15,10 @@ public class Ambre {
 
         Optional<Cart> cart = Optional.empty();
 
-        Cart myCart = cart.get();
+        if (cart.isPresent()) {
+            Cart myCart = cart.get();
 
-        System.out.println(myCart);
+            System.out.println(myCart);
+        }
     }
 }
