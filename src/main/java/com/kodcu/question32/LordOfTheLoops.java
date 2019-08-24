@@ -7,7 +7,6 @@ import java.util.List;
 TODO
  1 - Run the LordOfTheLoops.java
  2 - Did you spot the bug?
-
 */
 public class LordOfTheLoops {
 
