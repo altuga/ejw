@@ -3,8 +3,8 @@ package com.kodcu.question34;
 
 /*
 TODO
- 1 - Measure time in microseconds of String concatenation opertion
- 2 - What are the alternative approaches ?
+ 1 - Measure time in microseconds of String concatenation operation
+ 2 - What are the alternative approaches for String concatenation operation?
 */
 
 public class Combine {
