@@ -15,9 +15,7 @@ import java.io.*;
 
 /*
 TODO: 
- 1 - Ugly code please simplify the code -  5 mins
- 2 - Instructor will show the solutions
- 3 - Refactor and ask questions 
+ 1 - What are the alternatives for copy() method
 */
 public class ReadFile {
 
