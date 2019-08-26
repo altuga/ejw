@@ -5,7 +5,9 @@ import java.util.List;
 import java.util.ListIterator;
 
 /**
- *  1 - How do you transform current Exception in to IndexOutOfBoundsException - Exception Translation
+ *  1 - How do you transform current Exception in to IndexOutOfBoundsException -
+ *  Exception Translation :
+ *  Convert LowerLevelException to HigherLevelException
  *
  * @param <E> Type of the Element
  */
