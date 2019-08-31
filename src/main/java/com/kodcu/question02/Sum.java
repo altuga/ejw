@@ -1,6 +1,8 @@
 package com.kodcu.question02;
 
 
+import java.util.concurrent.TimeUnit;
+
 /**
  * Altug Bilgin Altintas
  * 
@@ -12,10 +14,10 @@ package com.kodcu.question02;
 
 /*
 TODO 
- 1 - Run the appliction
+ 1 - Run the application
  2 - Discussion : Did you feel any abnormality about the performance ?
  3 - Instructor will show the solutions
- 4 - Refactor and ask questions 
+ 4 - Refactor
 */
 public class Sum {
     private static long sum() {
@@ -30,7 +32,7 @@ public class Sum {
         long start = System.nanoTime(); // always use nanotTime for accuracy
         sum();
         long end = System.nanoTime();
-        System.out.println((end - start) / 1_000_000. + " ms..");
+        System.out.println(  TimeUnit.MILLISECONDS.convert( (end - start), TimeUnit.NANOSECONDS) +  " ms..");
 
 
 
