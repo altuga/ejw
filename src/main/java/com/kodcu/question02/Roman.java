@@ -2,6 +2,15 @@ package com.kodcu.question02;
 
 
 /**
+ * Altug Bilgin Altintas
+ *
+ * Effective Java Workshop
+ *
+ * Email : altug@kodcu.com
+ * Twitter : @altugaltintas
+ */
+
+/**
  * 1-  Measure the performance of the main() method
  * 2 - Can you make isRomanNumeral() method faster ?
  */
