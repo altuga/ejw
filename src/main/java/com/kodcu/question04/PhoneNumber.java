@@ -48,10 +48,8 @@ public final class PhoneNumber {
 
 
     public static void main(String[] args) {
-        
-        System.out.println(" --> " + new PhoneNumber(707, 867, 5309).hashCode());
-        System.out.println(" --> " + new PhoneNumber(707, 867, 5309).hashCode());
-        
+
+
         Map<PhoneNumber, String> m = new HashMap<>();
         m.put(new PhoneNumber(707, 867, 5309), "Jenny");
         System.out.println(m.get(new PhoneNumber(707, 867, 5309)));
