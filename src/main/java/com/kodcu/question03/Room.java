@@ -18,11 +18,5 @@ public class Room {
     public Room(int numJunkPiles) {
         this.numJunkPiles = numJunkPiles;
     }
-    
-
-
-
-    
-
 
 }
