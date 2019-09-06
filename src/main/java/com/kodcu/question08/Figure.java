@@ -19,7 +19,7 @@ TODO:
  5 - Refactor and ask questions 
 */
 class Figure {
-    enum Shape { RECTANGLE, CIRCLE, SQUARE  };
+    enum Shape { RECTANGLE, CIRCLE  };
 
     // Tag field - the shape of this figure
     final Shape shape;
