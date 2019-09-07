@@ -13,12 +13,14 @@ import java.math.BigDecimal;
  */
 
 /*
-TODO: 
- 1 - Run the app.
- 2 - Any abnormality ? If yes try fix it - 5 mins
- 3 - Instructor will show the solutions
- 4 - Refactor and ask questions 
+TODO:
+ 1 - Show presentation in order to understand the question well - http://tiny.cc/cnrccz
+ 2 - Run the app.
+ 3 - Any abnormality ? If yes try fix it - 5 mins
+ 4 - Instructor will show the solutions
+ 5 - Refactor and ask questions
 */
+
 public class Money {
 
     public static void main(String[] args) {
