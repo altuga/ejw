@@ -26,14 +26,14 @@ public class Stack { // 1_1
         elements[size++] = e;
     }
 
-    //2_3
+
     public Object pop() { //1_5
         if (size == 0) {
             throw new EmptyStackException();
         }
 
 
-        Object result = elements[--size]; //1_6
+        Object result = elements[--size]; //1_6 and and 2_3
         elements[size] = null;
         return result;
     }
