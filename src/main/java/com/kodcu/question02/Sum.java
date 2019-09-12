@@ -28,11 +28,6 @@ public class Sum {
     }
 
     public static void main(String[] args) {
-       long start = System.nanoTime(); // always use nanotTime for accuracy
-       sum();
-       long end = System.nanoTime();
-       System.out.println(  TimeUnit.MILLISECONDS.convert( (end - start), TimeUnit.NANOSECONDS) +  " ms..");
-
-
+        sum();
     }
 }
