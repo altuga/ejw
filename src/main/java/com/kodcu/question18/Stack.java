@@ -9,30 +9,31 @@ TODO
  2 - What is the lesson  ?
 */
 
-public class Stack { // q18_t_1_1
-    public Object[] elements; // q18_t_1_2
+public class Stack { // 1_1
+    public Object[] elements; // 1_2  and 2_1
     private int size = 0;
     private static final int DEFAULT_INITIAL_CAPACITY = 16;
 
 
-    //q18_t_1_3
+    //1_3 and 2_2
     public Stack() {
         elements = new Object[DEFAULT_INITIAL_CAPACITY];
     }
 
 
-    public void push(Object e) { //q18_t_1_4
+    public void push(Object e) { //1_4
         ensureCapacity();
         elements[size++] = e;
     }
 
-    public Object pop() { //q18_t_1_5
+    //2_3
+    public Object pop() { //1_5
         if (size == 0) {
             throw new EmptyStackException();
         }
 
 
-        Object result = elements[--size]; //q18_t_1_6
+        Object result = elements[--size]; //1_6
         elements[size] = null;
         return result;
     }
