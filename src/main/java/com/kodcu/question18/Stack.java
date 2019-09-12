@@ -20,18 +20,19 @@ public class Stack { // q18_t_1_1
         elements = new Object[DEFAULT_INITIAL_CAPACITY];
     }
 
-    public void push(Object e) {
+
+    public void push(Object e) { //q18_t_1_4
         ensureCapacity();
         elements[size++] = e;
     }
 
-    public Object pop() {
+    public Object pop() { //q18_t_1_5
         if (size == 0) {
             throw new EmptyStackException();
         }
 
 
-        Object result = elements[--size];
+        Object result = elements[--size]; //q18_t_1_6
         elements[size] = null;
         return result;
     }
