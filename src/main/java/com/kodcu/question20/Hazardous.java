@@ -13,11 +13,11 @@ public class Hazardous {
 
 
     static void hazardous( List<String>... stringLists) { //1
-    List<Integer> intList = List.of(42);
-    Object[] objects = stringLists;
-    objects[0] = intList; // Heap pollution
-    String s = stringLists[0].get(0); // ClassCastException
-}
+        List<Integer> intList = List.of(42);
+        Object[] objects = stringLists;
+        objects[0] = intList; // Heap pollution
+        String s = stringLists[0].get(0); // ClassCastException
+    }
 
     public static void main(String[] args) {
         hazardous(List.of("There be dragons!"));
