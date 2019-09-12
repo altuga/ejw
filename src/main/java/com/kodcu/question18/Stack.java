@@ -9,12 +9,13 @@ TODO
  2 - What is the lesson  ?
 */
 
-public class Stack {
-    public Object[] elements;
+public class Stack { // q18_t_1_1
+    public Object[] elements; // q18_t_1_2
     private int size = 0;
     private static final int DEFAULT_INITIAL_CAPACITY = 16;
 
 
+    //q18_t_1_3
     public Stack() {
         elements = new Object[DEFAULT_INITIAL_CAPACITY];
     }
