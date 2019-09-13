@@ -1,5 +1,7 @@
 package com.kodcu.question23;
 
+
+// 2 and 3 @
 public class PrintedWork {
 
     public static final int STYLE_BOLD = 1 ;
