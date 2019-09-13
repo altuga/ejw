@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args) {
 
         /**
-         * If your Weight is 80 on Earth then what will be on Mars? Or Uranus ? ...
+         * If your Weight is 80 KG on Earth then what will be on Mars? Or Uranus ? ...
          */
         double earthWeight = Double.parseDouble(args[0]);
 
