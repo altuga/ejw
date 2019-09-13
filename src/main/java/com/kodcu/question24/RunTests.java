@@ -14,6 +14,9 @@ TODO
 3 - Any abnormality  ?
 
  */
+
+
+// 1 @
 public class RunTests {
     public static void main(String[] args) throws Exception {
         int tests = 0;
@@ -21,7 +24,7 @@ public class RunTests {
         Class<?> testClass = Sample.class ;
 
         for (Method m : testClass.getDeclaredMethods()) {
-            if (m.getName().startsWith("test")) {
+            if (m.getName().startsWith("test")) {  //2
                 tests++;
                 try {
                     m.invoke(null);
