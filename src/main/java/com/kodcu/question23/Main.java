@@ -14,6 +14,7 @@ public class Main {
 
     public static void main(String[] args) {
         PrintedWork printedWork = new PrintedWork();
-        printedWork.applyStyles(STYLE_BOLD);
+        printedWork.applyStyles(STYLE_BOLD); //1 and //4
+
     }
 }
