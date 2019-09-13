@@ -23,6 +23,7 @@ public class NerfBasic {
     }
 
 
+    //1
     public boolean equals(NerfBasic nerfBasic) {
         if (this == nerfBasic) return true;
 
