@@ -43,7 +43,7 @@ public class StockCalculation {
         StockCalculation stockCalculation = new StockCalculation();
 
         List<String> stockNames = new ArrayList() ;
-        for (int i = 0; i <10000 ; i++) {
+        for (int i = 0; i <1000 ; i++) {
             stockNames.add("A" + i) ;
         }
         List<StockInfo>  stockInfos =  stockCalculation.getStockInfo(stockNames.stream());
