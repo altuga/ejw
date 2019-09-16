@@ -12,8 +12,9 @@ import static java.util.stream.Collectors.toList;
 /*
 TODO
 
-1 - Can you make this app faster ?
-2 - Measure working time
+1 - Measure working time
+2 - Can you make this app faster ?
+
 */
 
 public class StockCalculation {
