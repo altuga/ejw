@@ -10,11 +10,11 @@ public class CheeseController {
     /**
      * @return a list containing all of the cheeses in the shop,
      * or null if no cheeses are available for purchase.
+     *
+     * 1
      */
-    public List<Cheese> getCheeses() { //1
+    public List<Cheese> getCheeses() {
         return cheesesInStock.isEmpty() ? null
                 : cheesesInStock;
-        //2
-        // 3
     }
 }
