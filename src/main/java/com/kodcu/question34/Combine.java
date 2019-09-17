@@ -14,6 +14,7 @@ public class Combine {
         int count = 1000;
         String str = "";
 
+        // 4 and 5
         for (int i = 0; i < count; i++) {
             str = str + "core"; // String concatenation
         }
