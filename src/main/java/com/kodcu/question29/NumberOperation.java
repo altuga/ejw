@@ -12,7 +12,7 @@ TODO
 */
 public class NumberOperation {
 
-    static int sum(List<Integer> intList) {
+    static int sum(List<Integer> intList) { //1
         int sum = 0;
         for (int arg : intList)
             sum += arg;
@@ -20,6 +20,7 @@ public class NumberOperation {
     }
 
 
+    //2
     static int min(Integer[] args) {
         if (args.length == 0)
             throw new IllegalArgumentException("Too few arguments");
