@@ -13,6 +13,7 @@ public class Translate {
         int i = 0;
         String result = "";
         try {
+            //1
             while (true) {
                 result = result.concat(processSingleString(strings[i]));
                 i++;
