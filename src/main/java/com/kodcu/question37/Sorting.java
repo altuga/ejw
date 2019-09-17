@@ -10,6 +10,8 @@ import java.util.ListIterator;
  *  Convert LowerLevelException to HigherLevelException
  *
  * @param <E> Type of the Element
+ *
+ *  javadoc : 2
  */
 public class Sorting<E> {
 
@@ -17,7 +19,7 @@ public class Sorting<E> {
 
     public E get(int index) {
         ListIterator<E> i = myList.listIterator();
-        return i.next();
+        return i.next(); // 1  //3
     }
 
     public static void main(String[] args) {
