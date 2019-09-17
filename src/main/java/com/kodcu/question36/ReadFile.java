@@ -22,7 +22,7 @@ public class ReadFile {
     private static final int BUFFER_SIZE = 8 * 1024;
 
 
-    static void copy(String src, String dst) throws IOException {
+    static void copy(String src, String dst) throws IOException { // 2
         try (InputStream in = new FileInputStream(src);
              OutputStream out = new FileOutputStream(dst)) {
 
@@ -32,9 +32,13 @@ public class ReadFile {
                 out.write(buf, 0, n);
             }
 
+            // 4
+
         } catch (IOException ex) {
             System.err.println(ex);
-            throw ex;
+            throw ex; //1
+
+            //3
         }
 
 
@@ -43,6 +47,8 @@ public class ReadFile {
     public static void main(String[] args) throws IOException{
         String src = "a.txt"; // always gives error
         String dst = "b.txt"; // always gives error
+
+        // 5
         copy(src, dst);
 
     }
