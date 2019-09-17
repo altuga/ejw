@@ -17,10 +17,13 @@ public class LordOfTheLoops {
         }
 
         Iterator<Integer> i2 = a.iterator();
+        //1
         while (i.hasNext()) {
             System.out.println(" --> " + i2.next());
         }
     }
+
+
 
     public static void main(String[] args) {
 
