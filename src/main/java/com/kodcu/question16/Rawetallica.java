@@ -20,6 +20,7 @@ public class Rawetallica {
         String s = strings.get(0); // Has compiler-generated cast
     }
 
+    //1
     private static void add(List list, Object o) {
         list.add(o);
     }
