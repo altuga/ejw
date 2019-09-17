@@ -5,9 +5,8 @@ import java.util.List;
 /*
 TODO
 
- 1 - What is wrong in this class ?
- 2 - Instructor will show the solutions ?
- 3 - What is the lesson  ?
+ 1 - What improvements can be made to this class ?
+ 2 - What is the lesson  ?
 */
 public class Main {
 
