@@ -1,20 +1,8 @@
 package com.kodcu.question14;
 
 
-public enum PhysicalConstants {
+public interface PhysicalConstants {
 
-    PI(3.14159),
-    C(3*10e8);
-    private double value ;
-
-
-    PhysicalConstants(double value) {
-        this.value = value;
-    }
-
-    public double getValue() {
-        return value;
-    }
-
+    static final double PI = 3.14159 ;
 
 }

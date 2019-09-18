@@ -18,16 +18,6 @@ public class AreaCalculator {
 
     public static void main(String[] args) {
 
-        double r = Double.valueOf(args[0]);
-
-        double area = PhysicalConstants.PI.getValue() * Math.pow(r, 2);
-        System.out.println("area " + area);
-
-        double mass = 5 ;
-
-        double energy = mass * PhysicalConstants.C.getValue() ;
-        System.out.println(energy);
-
 
     }
 }
