@@ -31,6 +31,7 @@ public class Symptom {
 
         List<Card> deck = new ArrayList<>();
 
+        //1
         for (Iterator<Card.Suit> i = suits.iterator(); i.hasNext(); )
             for (Iterator<Card.Rank> j = ranks.iterator(); j.hasNext(); )
                 deck.add(new Card(i.next(), j.next()));
