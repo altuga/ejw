@@ -23,6 +23,8 @@ public class ReadFile {
 
     static String firstLineOfFile(String path) throws IOException {
         BufferedReader br = new BufferedReader(new FileReader(path));
+
+        //1
         try {
             return br.readLine();
         } finally {

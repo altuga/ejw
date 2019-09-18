@@ -23,6 +23,8 @@ public class ReadAndWriteFile {
 
     static void copy(String src, String dst) throws IOException {
         InputStream in = new FileInputStream(src);
+
+        //2
         try {
             OutputStream out = new FileOutputStream(dst);
             try {
