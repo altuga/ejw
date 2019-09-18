@@ -24,10 +24,10 @@ TODO:
 public class Money {
 
     public static void main(String[] args) {
-        double funds = 1.00;
-        int itemsBought = 0;
-        for (double price = 0.10; funds >= price; price += 0.10) {
-            funds -= price;
+        double funds = 1.00;  //1
+        int itemsBought = 0; //2
+        for (double price = 0.10; funds >= price; price += 0.10) {  //3
+            funds -= price;  //4
             itemsBought++;
         }
         System.out.println(itemsBought + " items bought.");
