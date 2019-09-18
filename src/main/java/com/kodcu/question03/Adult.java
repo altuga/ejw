@@ -18,6 +18,7 @@ TODO:
  4 - Refactor and ask questions 
 */
 
+//2
 public class Adult {
     public static void main(String[] args) {
 
