@@ -10,7 +10,7 @@ package com.kodcu.question01;
 
 /*
 TODO: 
- 1 - Initialize (create) the class according to the fields below - 5 minutes
+ 1 - Initialize (create) the class according to the fields below
  2 - Instructor will show the solutions
  3 - Refactor and ask questions
  */
