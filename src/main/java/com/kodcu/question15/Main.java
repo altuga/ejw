@@ -13,7 +13,13 @@ public class Main {
         System.out.println(Utensil.NAME + Dessert.NAME);
     }
 
+    private static class Utensil {
+        static final String NAME = "pan";
+    }
 
+    private static class Dessert {
+        static final String NAME = "cake";
+    }
 
 
 }
