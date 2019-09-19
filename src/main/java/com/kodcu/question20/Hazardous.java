@@ -5,7 +5,7 @@ import java.util.List;
 
 /*
 TODO
- 1 - Compile Combiner.java
+ 1 - Compile Hazardous.java
  2 - There are 1 warnings, can you spot the warning ?
  3 - try to fix this 1 warning.
 */
@@ -20,6 +20,6 @@ public class Hazardous {
     }
 
     public static void main(String[] args) {
-        hazardous(List.of("There be dragons!"));
+        hazardous(List.of("I love JUG Istanbul and Java Day Istanbul"));
     }
 }
