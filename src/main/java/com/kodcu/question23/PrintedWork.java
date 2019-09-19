@@ -1,7 +1,7 @@
 package com.kodcu.question23;
 
 
-// 2 and 3 @
+
 public class PrintedWork {
 
     public static final int STYLE_BOLD = 1 ;
@@ -12,4 +12,7 @@ public class PrintedWork {
     public void applyStyles(int styles) {
         System.out.println( styles + " are applied ");
     }
+
+    // 2
+    // 3
 }
