@@ -28,7 +28,6 @@ public class CarClassifier {
         return "Mercedes";
     }
 
-    //1
 
     public static void main(String[] args) {
         List<Car> collections = List.of(
