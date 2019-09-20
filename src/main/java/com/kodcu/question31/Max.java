@@ -13,9 +13,9 @@ public class Max {
 
 
     // Returns maximum value in collection - throws exception if empty
-    public static String max(Collection<String> collection) {
+    public static String max(Collection<String> collection) { // 1
         if (collection == null || collection.isEmpty())
-            throw new IllegalArgumentException("Empty collection");
+            throw new IllegalArgumentException("Empty collection"); // 2
 
         String result = null;
         for (String e : collection) {
@@ -24,7 +24,7 @@ public class Max {
         }
 
 
-        return  result;
+        return  result; // 3
     }
 
 
@@ -32,7 +32,7 @@ public class Max {
     public static void main(String[] args) {
         List<String> words = Arrays.asList("100", "20", "5");
 
-        System.out.println(max(words));
+        System.out.println(max(words));  // 4
 
 
     }
