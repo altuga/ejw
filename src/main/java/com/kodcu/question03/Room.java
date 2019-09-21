@@ -10,7 +10,7 @@ package com.kodcu.question03;
  * Twitter : @altugaltintas
  */
 
-//2
+//1
 public class Room {
 
 
